@@ -29,6 +29,9 @@ namespace ePizzaHub.Services
 
             // services
             services.Add(new ServiceDescriptor(typeof(IAuthService), typeof(AuthService), ServiceLifetime.Scoped));
+
+            
+            
         }
     }
 }
